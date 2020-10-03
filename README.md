@@ -4,7 +4,7 @@ A program for sorting Science Olympiad students into events
 ## Getting started
 1. Download this project by clicking Code > Download ZIP:
 
-<img src="img/download.png" alt="Create Google Form Spreadsheet" width="250px" />
+<img src="img/download.png" alt="Create Google Form Spreadsheet" width="300px" />
 
 2. Right click the downloaded folder and press "Extract All..." to extract the project's files.
 3. Open the folder containing the extracted files and navigate to the "src" folder.
@@ -31,12 +31,12 @@ A program for sorting Science Olympiad students into events
 ### How can I create a Google Sheets spreadsheet containing responses to a Google Form?
 Responses > Create Spreadsheet
 
-<img src="img/createFormSpreadsheet.png" alt="Create Google Form Spreadsheet" width="350px" />
+<img src="img/createFormSpreadsheet.png" alt="Create Google Form Spreadsheet" width="400px" />
 
 ### How can I download a TSV file from a Google Sheets spreadsheet?
 File > Download > Tab-separated values
 
-<img src="img/tsvFileDownload.png" alt="TSV File Download" width="350px" />
+<img src="img/tsvFileDownload.png" alt="TSV File Download" width="400px" />
 
 ## Sorting Parameters
 * Placement test score weight (how much to take placement test score into account)
