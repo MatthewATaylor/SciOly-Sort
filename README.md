@@ -6,8 +6,9 @@ A program for sorting Science Olympiad students into events
 
 <img src="img/download.png" alt="Create Google Form Spreadsheet" width="300px" />
 
-2. Right click the downloaded folder and press "Extract All..." to extract the project's files.
-3. Open the folder containing the extracted files and navigate to the "src" folder.
+2. Unzip the downloaded folder.
+    * For Windows: Right click the folder and press "Extract All..." to extract the project's files.
+3. Open the unzipped folder and navigate to the "src" folder.
 4. Open "index.html" to use the program.
 
 ## Data Used for Sorting
