@@ -1,6 +1,15 @@
 # SciOly Sort
 A program for sorting Science Olympiad students into events
 
+## Getting started
+1. Download this project by clicking Code > Download ZIP:
+
+<img src="img/download.png" alt="Create Google Form Spreadsheet" style="width: 200px;"/>
+
+2. Right click the downloaded folder and press "Extract All..." to extract the project's files.
+3. Open the folder containing the extracted files and navigate to the "src" folder.
+4. Open "index.html" to use the program.
+
 ## Data Used for Sorting
 ### Sorting requires three TSV files:
 * Event list (Google Sheets > TSV)
