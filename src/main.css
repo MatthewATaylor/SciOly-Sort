@@ -1,0 +1,252 @@
+body {
+    background-color: #303030;
+    color: #ffffff;
+    margin-top: 75px;
+    margin-bottom: 75px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.main-container {
+    width: 550px;
+    margin: auto;
+}
+@media only screen and (max-width: 647px) {
+    .main-container {
+        width: 85vw;
+    }
+}
+
+h1 {
+    font-size: 55px;
+    text-align: center;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 4px;
+    margin-top: 6px;
+    font-size: 25px;
+}
+
+.border {
+    border-color: #255e92;
+    border-style: solid;
+    border-width: 6px;
+    border-radius: 15px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0);
+    transition: background-color 0.5s;
+}
+.border:hover {
+    background-color: #255e92;
+}
+
+input[type=file] {
+    display: block;
+    font-size: 14px;
+    outline: none;
+}
+
+button {
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0);
+    outline: none;
+}
+
+#message-box {
+    width: 300px;
+    height: 0;
+    position: fixed;
+    top: -9999%;
+    left: 50%;
+    opacity: 0;
+    background-color: rgba(242, 242, 242, 224);
+    border-radius: 15px;
+    transform: translate(-50%, -50%);
+    color: #303030;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: default;
+    transition: opacity 1s;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.slider-value {
+    font-size: 16px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    vertical-align: middle;
+}
+
+input[type=range] {
+    -webkit-appearance: none;
+    outline: none;
+    width: 200px;
+    background: transparent;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    vertical-align: middle;
+}
+
+/*Thumb*/
+input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    height: 20px;
+    width: 20px;
+    border-radius: 10px;
+    background: #ffffff;
+}
+input[type=range]::-moz-range-thumb {
+    height: 20px;
+    width: 20px;
+    border-radius: 10px;
+    background: #ffffff;
+}
+input[type=range]::-ms-thumb {
+    height: 20px;
+    width: 20px;
+    border-radius: 10px;
+    background: #ffffff;
+}
+
+/*Track*/
+input[type=range]::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 20px;
+    background: #255e92;
+    border-radius: 10px;
+}
+input[type=range]::-moz-range-track {
+    width: 100%;
+    height: 20px;
+    background: #255e92;
+    border-radius: 10px;
+}
+input[type=range]::-ms-track {
+    width: 100%;
+    height: 20px;
+    cursor: pointer;
+    background: transparent;
+    border-color: transparent;
+    color: transparent;
+}
+input[type=range]::-ms-fill-lower {
+    background: #255e92;
+    border-radius: 10px;
+}
+input[type=range]::-ms-fill-upper {
+    background: #255e92;
+    border-radius: 10px;
+}
+
+/*Tables*/
+table {
+    text-align: center;
+}
+th, td {
+    padding: 5px 15px;
+}
+th {
+    font-size: 24px;
+}
+td {
+    font-size: 20px;
+}
+.bordered-table {
+    border-color: #255e92;
+    border-style: solid;
+    border-width: 6px;
+    border-radius: 15px;
+}
+#sorted-students-table {
+    margin-top: 40px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#create-event-list-table {
+    display: block;
+    overflow-x: auto;
+    margin-bottom: 30px;
+    padding: 2px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*Scrollbar*/
+::-webkit-scrollbar {
+	width: 15px;
+    height: 15px;
+}
+::-webkit-scrollbar-track {
+	background-color: #00000000;
+	z-index: -100;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #255e92;
+    border-radius: 15px;
+}
+::-webkit-scrollbar-thumb:hover {
+	background-color: #235483;
+}
+
+/*Selection*/
+::selection {
+    background-color: #66666655;
+}
+::-moz-selection {
+    background-color: #66666655;
+}
+
+/*Links*/
+a {
+    color: #417bb1;
+    font-weight: bold;
+}
+#create-event-list-link {
+    display: inline-block;
+    text-align: center;
+    margin-top: 6px;
+}
+
+/*Text inputs*/
+input[type="text"] {
+	width: 100px;
+	height: 13px;
+	border-radius: 15px;
+	background-color: #ffffff;
+	border-width: 0;
+	border: none;
+	padding: 10px;
+	margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 16px;
+    text-align: center;
+	transition: background-color 0.5s;
+}
+input[type="text"]:hover {
+    background-color: #e1e1e1;
+}
+input.event-name {
+    width: 200px;
+}
+input.practice-block {
+    width: 50px;
+}
+input.max-students {
+    width: 50px;
+}
+
+.hidden {
+    display: none;
+}
+
+.centered {
+    text-align: center;
+}

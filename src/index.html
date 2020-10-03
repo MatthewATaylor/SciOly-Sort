@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>SciOly Sort</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+        <div id="message-box"></div>
+
+        <div class="main-container">
+            <h1>SciOly Sort</h1>
+
+            <!--File inputs-->
+            <label for="event-file">Event List File (.tsv)</label>
+            <div class="border">
+                <input type="file" name="event-file" id="event-file" />
+            </div>
+            <div class="centered">
+                <a id="create-event-list-link" href="create-event-list.html" target="_blank">(Create Event List)</a>
+            </div>
+            <br />
+
+            <label for="registration-file">Registration Data File (.tsv)</label>
+            <div class="border">
+                <input type="file" name="registration-file" id="registration-file" />
+            </div>
+            <br />
+
+            <label for="test-file">Placement Test Data File (.tsv)</label>
+            <div class="border">
+                <input type="file" name="test-file" id="test-file" />
+            </div>
+            <br />
+
+            <!--Sliders-->
+            <label for="test-slider">Placement Test Score Weight</label>
+            <div class="slider-container">
+                <input type="range" min="0" max="100" value="50" name="test-slider" id="test-slider" />
+                <span class="slider-value" id="test-slider-value">50</span>
+            </div>
+            <br />
+
+            <label for="mentor-slider">Parent Mentor Weight</label>
+            <div class="slider-container">
+                <input type="range" min="0" max="100" value="50" name="mentor-slider" id="mentor-slider" />
+                <span class="slider-value" id="mentor-slider-value">50</span>
+            </div>
+            <br />
+
+            <label for="grade6-slider">Maximum Grade 6 Proportion per Event</label>
+            <div class="slider-container">
+                <input type="range" min="0" max="100" value="50" name="grade6-slider" id="grade6-slider" />
+                <span class="slider-value" id="grade6-slider-value">50</span>
+            </div>
+            <br />
+
+            <label for="grade7-slider">Maximum Grade 7 Proportion per Event</label>
+            <div class="slider-container">
+                <input type="range" min="0" max="100" value="50" name="grade7-slider" id="grade7-slider" />
+                <span class="slider-value" id="grade7-slider-value">50</span>
+            </div>
+            <br />
+
+            <label for="grade8-slider">Maximum Grade 8 Proportion per Event</label>
+            <div class="slider-container">
+                <input type="range" min="0" max="100" value="50" name="grade8-slider" id="grade8-slider" />
+                <span class="slider-value" id="grade8-slider-value">50</span>
+            </div>
+            <br />
+
+            <label for="event-slider">Maximum Events per Student</label>
+            <div class="slider-container">
+                <input type="range" min="0" max="6" value="3" name="event-slider" id="event-slider" />
+                <span class="slider-value" id="event-slider-value">50</span>
+            </div>
+            <br />
+
+            <div class="centered">
+                <button class="border" id="sort-button"><b>Sort!</b></button>
+            </div>
+
+            <table class="bordered-table hidden" id="sorted-students-table"></table>
+        </div>
+
+        <script src="js/escapeHTML.js"></script>
+        <script src="js/slider.js"></script>
+        <script src="js/messageBox.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
