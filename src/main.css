@@ -49,14 +49,6 @@ input[type=file] {
     outline: none;
 }
 
-button {
-    color: white;
-    font-size: 24px;
-    cursor: pointer;
-    background-color: rgba(0, 0, 0, 0);
-    outline: none;
-}
-
 #message-box {
     width: 300px;
     height: 0;
@@ -92,6 +84,18 @@ input[type=range] {
     padding-top: 1px;
     padding-bottom: 1px;
     vertical-align: middle;
+}
+
+/*Buttons*/
+button {
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0);
+    outline: none;
+}
+#export-events-button {
+    margin-top: 20px;
 }
 
 /*Thumb*/
@@ -150,7 +154,7 @@ table {
     text-align: center;
 }
 th, td {
-    padding: 5px 15px;
+    padding: 10px 20px;
 }
 th {
     font-size: 24px;
@@ -163,18 +167,15 @@ td {
     border-style: solid;
     border-width: 6px;
     border-radius: 15px;
+    padding: 10px;
 }
 #sorted-students-table {
     margin-top: 40px;
-    padding: 10px;
     margin-left: auto;
     margin-right: auto;
 }
-#create-event-list-table {
-    display: block;
-    overflow-x: auto;
-    margin-bottom: 30px;
-    padding: 2px;
+#events-table {
+    margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -198,10 +199,10 @@ td {
 
 /*Selection*/
 ::selection {
-    background-color: #66666655;
+    background-color: #88888855;
 }
 ::-moz-selection {
-    background-color: #66666655;
+    background-color: #88888855;
 }
 
 /*Links*/
@@ -243,10 +244,15 @@ input.max-students {
     width: 50px;
 }
 
-.hidden {
-    display: none;
+.x-scroll {
+    display: block;
+    overflow-x: auto;
 }
 
 .centered {
     text-align: center;
+}
+
+.hidden {
+    display: none;
 }

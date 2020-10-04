@@ -24,6 +24,8 @@ A program for sorting Science Olympiad students into events
 * Placement test data (Google Forms > Google Sheets > TSV)
     * Student placement test scores
 
+**Note:** The order of events in the event list must be the same as the order of events in the student event preference question.
+
 ### Samples
 * [Event list](https://docs.google.com/spreadsheets/d/1T2gawd6Jf1twdE8PftVOxGwr4_BKuDXxM5ly_szexaw/edit?usp=sharing)
 * [Registration data form](https://docs.google.com/forms/d/18byww3zlSliWNiFpndowJALzkFHEfmMLGE7Af-vlcqs/copy)
