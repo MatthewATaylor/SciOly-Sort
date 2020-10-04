@@ -51,8 +51,14 @@ File > Download > Tab-separated values
 ```
 Sort all students by placement test score and parent mentors
 For each student:
-    Sort all events by preferences
-    For each event:
-        If no conflicts with event:
-            Assign event to student
+    For each event (sorted by preference):
+        If student in max number of events:
+            Break
+        If event has max number of students
+            Continue
+        If proportion of student's grade in event is too high:
+            Continue
+        If there's a schedule conflict:
+            Continue
+        Assign event to student
 ```
